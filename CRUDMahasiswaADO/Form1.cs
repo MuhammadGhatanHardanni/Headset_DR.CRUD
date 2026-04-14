@@ -85,4 +85,11 @@ namespace CRUDMahasiswaADO
         private void button1_Click(object sender, EventArgs e) { }
 
 
-        
+        // -------------------------------------------------------------
+        // EVENT TOMBOL CRUD
+        // -------------------------------------------------------------
+
+        private void btnConnect_Click(object sender, EventArgs e)
+        {
+            ConnectDatabase();
+        }
